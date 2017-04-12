@@ -1,0 +1,25 @@
+.smallapp-form{
+	background: #f7f7f7;
+	margin-top: 5%;
+	font-size: 14px;
+	width: 25%;
+	margin-left:40%;
+	height: auto;
+}
+
+.info-login-group-margin{
+	margin-top: 7% !important;
+}
+
+.info-login-button-widht{
+	width: 30%;
+}
+
+.index-data-ng-view{
+  margin-bottom: auto;
+  padding-top: 30px;
+  font-size: 14px;
+}
+
+
+

@@ -1,0 +1,8 @@
+<div ng-repeat="message in messages" 
+ 					ng-class="'alert alert-' + type" 
+ 			 	ng-init="show_alert=true" 
+ 			 	ng-show="show_alert">
+ 	 <button type="button" class="close" ng-click="show_alert=false">&times;</button>
+  			 {{message}}
+</div>
+ 

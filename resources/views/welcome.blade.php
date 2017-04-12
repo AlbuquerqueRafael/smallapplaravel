@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="smallapp" lang="{{ config('app.locale') }}">
+<html ng-app="smallapp" >
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,20 +14,20 @@
         <link href="<?= asset('/css/smallapp.css') ?>" rel="stylesheet">
 
         <!-- CSS -->
-        <link href="<?= asset('libs/boostrap/bootstrap.min.css') ?>" rel="stylesheet">>
-        <link href="<?= asset('libs/font-awesome/font-awesome.min.css') ?>" rel="stylesheet">>
+        <link href="<?= asset('libs/boostrap/bootstrap.min.css') ?>" rel="stylesheet">
+        <link href="<?= asset('libs/font-awesome/font-awesome.min.css') ?>" rel="stylesheet">
 
 
         <!-- SCRIPTS -->
-        <script src="<?= asset('libs/angular/angular.min.js') ?>" rel="stylesheet">></script>
-        <script src="<?= asset('libs/angular/angular-route.min.js') ?>" rel="stylesheet">></script>
+        <script src="<?= asset('libs/angular/angular.min.js') ?>" rel="stylesheet"></script>
+        <script src="<?= asset('libs/angular/angular-route.min.js') ?>" rel="stylesheet"></script>
 
-        <script src="<?= asset('js/app.js') ?>" rel="stylesheet">></script>
-        <script src="<?= asset('js/user/userService.js') ?>" rel="stylesheet">></script>
-        <script src="<?= asset('js/user/loginController.js') ?>" rel="stylesheet">></script>
-        <script src="<?= asset('js/home/homeController.js') ?>" rel="stylesheet">></script>
+        <script src="<?= asset('js/app.js') ?>" rel="stylesheet"></script>
+        <script src="<?= asset('js/user/userService.js') ?>" rel="stylesheet"></script>
+        <script src="<?= asset('js/user/loginController.js') ?>" rel="stylesheet"></script>
+        <script src="<?= asset('js/home/homeController.js') ?>" rel="stylesheet"></script>
         <!-- Alert -->
-        <script src="<?= asset('js/alert/alertDirective.js') ?>" rel="stylesheet">> </script>
+        <script src="<?= asset('js/alert/alertDirective.js') ?>" rel="stylesheet"></script>
     </head>
     <body class="index-page-color">
 		    <div class="index-data-ng-view">

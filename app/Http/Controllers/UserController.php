@@ -19,14 +19,12 @@ class UserController extends Controller
      */
     public function login(Request $request )
     {
-        error_log('Some message here.');
-
         $username = $request->input('username');
         $password = $request->input('password');
         $match = ['email' => $username, 'password' => $password];
 
         $user = User::where($match)->first();
-        return "Yes, you got";
+
         if($user != NULL){
           return $user = array(
                           "username" => $user->email ,

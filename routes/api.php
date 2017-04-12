@@ -13,6 +13,4 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user/login', function (Request $request) {
-    return 'sss';
-});
+Route::post('/user/login', 'UserController@login');

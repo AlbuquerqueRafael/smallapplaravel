@@ -19,6 +19,7 @@ class UserController extends Controller
      */
     public function login(Request $request )
     {
+
         $username = $request->input('username');
         $password = $request->input('password');
         $match = ['email' => $username, 'password' => $password];
@@ -31,7 +32,8 @@ class UserController extends Controller
                           "name" => $user->name,
                           );
         }else{
-          return response('Invalid username or password', 404);
+
+          return response('Invalid username or password', 400);
         }
 
     }

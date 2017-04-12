@@ -32,9 +32,8 @@ angular.module('smallapp').factory('userService', ['$http', '$window', '$locatio
     service.authUser = function(res){
 
 		// setting the user in AuthService
-		$window.sessionStorage.setItem('user', JSON.stringify(res.data));
-
-		$location.path('/home');
+		  $window.sessionStorage.setItem('user', JSON.stringify(res.data));
+      $location.path('/home');
     }
 
 
